@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <UseAppBundle Value="False"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2" Active="release">
+      <Item1 Name="release" Default="True"/>
+      <Item2 Name="debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value=".\bin\debug"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <IncludeAssertionCode Value="True"/>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <LinkSmart Value="True"/>
+          </Linking>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="ghostlister.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="275"/>
+        <CursorPos X="84" Y="284"/>
+        <FoldState Value=" T3iO2W85"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\rtl\win\wininc\struct.inc"/>
+        <TopLine Value="6277"/>
+        <CursorPos X="6" Y="6289"/>
+        <UsageCount Value="7"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\Program Files (x86)\DelphiShared\JVCL340CompleteJCL221-Build3845\jcl\source\windows\JclWin32.pas"/>
+        <TopLine Value="48"/>
+        <CursorPos X="17" Y="54"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\PROGRA~2\DELPHI~1\JVCL34~1\jcl\source\windows\JclWin32.pas"/>
+        <TopLine Value="81"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\PROGRA~2\DELPHI~1\JVCL34~1\jcl\source\common\JclBase.pas"/>
+        <TopLine Value="22"/>
+        <CursorPos X="68" Y="41"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\PROGRA~2\DELPHI~1\JVCL34~1\jcl\source\common\JclResources.pas"/>
+        <TopLine Value="30"/>
+        <CursorPos X="31" Y="30"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\struct.inc"/>
+        <CursorPos X="97" Y="6"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\redef.inc"/>
+        <TopLine Value="255"/>
+        <CursorPos X="67" Y="275"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\packages\winunits-jedi\src\jwawinbase.pas"/>
+        <TopLine Value="4633"/>
+        <CursorPos X="30" Y="4653"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\packages\winunits-jedi\src\jwatlhelp32.pas"/>
+        <UnitName Value="JwaTlHelp32"/>
+        <CursorPos X="45" Y="25"/>
+        <UsageCount Value="11"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="upsapi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPsAPI"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="319"/>
+        <CursorPos X="18" Y="346"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\codetyphon\fpcsrc\rtl\win64\windows.pp"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="150" Column="19" TopLine="136"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="182" Column="7" TopLine="163"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="398" Column="30" TopLine="374"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="12" Column="7"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="14" Column="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="278" Column="31" TopLine="249"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="3" Column="14"/>
+      </Position7>
+      <Position8>
+        <Filename Value="upsapi.pas"/>
+        <Caret Line="590" Column="27" TopLine="533"/>
+      </Position8>
+      <Position9>
+        <Filename Value="upsapi.pas"/>
+        <Caret Line="5" Column="33"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="14" Column="3"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="17" Column="22"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="269" Column="38" TopLine="253"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="378" Column="24" TopLine="350"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="410" Column="7" TopLine="361"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="380" Column="50" TopLine="357"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="463" TopLine="413"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="439" Column="69" TopLine="414"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="435" Column="12" TopLine="414"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="440" Column="11" TopLine="412"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="9" Column="7" TopLine="7"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="445" Column="89" TopLine="435"/>
+      </Position21>
+      <Position22>
+        <Filename Value="upsapi.pas"/>
+        <Caret Line="18" Column="44" TopLine="100"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="315" Column="33" TopLine="294"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="181" Column="60" TopLine="162"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="315" Column="23" TopLine="293"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="27" Column="56"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="279" Column="84" TopLine="251"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="228" Column="3" TopLine="263"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="307" Column="25" TopLine="131"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ghostlister.lpr"/>
+        <Caret Line="446" Column="18" TopLine="415"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value=".\bin\release"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <RelocatableUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <Optimizations>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="C:\Program Files (x86)\DelphiShared\JVCL340CompleteJCL221-Build3845\jcl\source\windows\JclWin32.pas"/>
+        <Line Value="1"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ghostlister.lpr"/>
+        <Line Value="17"/>
+      </Item2>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

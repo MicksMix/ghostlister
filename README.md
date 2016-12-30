@@ -14,4 +14,6 @@ Then I compare this to the PID values returned from the standard Windows API `Cr
 
 This isn't a great technique anymore for discovering malware, and even in 2011 this method was on its way out. Malware authors employe more sophisticated methods of evading detection these days.
 
+I learned about this technique after reading the [Rootkit Arsenal](https://www.amazon.com/Rootkit-Arsenal-Escape-Evasion-Corners/dp/1598220616), and used the C code the author provided as the basis for my Delphi version.
+
 However, back in 2011 I did find malware hiding on machines using this method. I'm releasing it as open-source for others to use or learn from.
